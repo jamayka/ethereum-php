@@ -252,6 +252,10 @@ class EthQ extends EthD
         return $ret;
     }
 
+    public function encodedHexVal() {
+        return $this->hexVal();
+    }
+
     /**
      * Implement getLength().
      */
